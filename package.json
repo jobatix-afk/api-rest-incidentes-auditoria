@@ -1,0 +1,17 @@
+{
+  "name": "api-rest-incidentes-auditoria",
+  "version": "1.0.0",
+  "description": "API REST para gestión de incidentes de auditoría con JWT y RBAC",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
